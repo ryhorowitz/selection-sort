@@ -1,5 +1,19 @@
+function findMin(arr) {
+  let min = Infinity
+  arr.forEach( elem => {
+    if (elem < min)
+    min = elem
+  } )
+  return min
+}
+
 function selectionSort(arr) {
-  // type your code here
+  // min is established
+  let result =[]
+  while (arr.length > result.length) {
+    let min = findMin(arr)
+    
+  }
 }
 
 if (require.main === module) {
